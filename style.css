@@ -25,3 +25,35 @@ div.overlay-blue:hover {background-color: rgba(13, 27, 43, 0.5);}
 .arrow:before {display: block; height: 200%; width: 200%; margin-left: -50%; margin-top: -50%; content: ""; transform: rotate(45deg);}
 .arrow.prev {transform: rotate(-45deg); left: 0;}
 .arrow.next {transform: rotate(135deg); right: 0;}
+
+/* Estilos básicos */
+
+
+  /* Estilos para dispositivos móveis */
+  @media (max-width: 600px) {
+    .slider-wrapper {
+      flex-wrap: wrap;
+    }
+    
+    .slide {
+      width: 100%;
+    }
+    
+    .slide-image {
+      flex: 0 0 100%;
+      margin-bottom: 10px;
+    }
+    
+    .slide-content {
+      padding: 10px;
+    }
+    
+    .slide-title {
+      font-size: 20px;
+    }
+    
+    .slide-date {
+      font-size: 14px;
+    }
+  }
+  
